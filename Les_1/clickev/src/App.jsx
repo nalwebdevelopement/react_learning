@@ -2,6 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import Inc from './component/Inc'
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
 
   return (
     <>
+    <Inc/>
      <button onClick={handleClick()}> subscribe</button>
      <button onClick={ (e) => {handleClick2(e)}}> get the event </button>
      <input type="text" id="text" name="first"/>
