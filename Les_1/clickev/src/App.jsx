@@ -3,6 +3,11 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Inc from './component/Inc'
+import Change from './component/Change'
+import Getname from './component/Getname'
+import Header from './component/Header'
+import Mapdemo from './component/Mapdemo'
+import Content from './component/Content'
 
 function App() {
 
@@ -27,11 +32,16 @@ function App() {
 
   return (
     <>
-    <Inc/>
-     <button onClick={handleClick()}> subscribe</button>
+    <Header/>
+    <Content/>
+    {/* <Inc/> */}
+     {/* <button onClick={handleClick()}> subscribe</button>
      <button onClick={ (e) => {handleClick2(e)}}> get the event </button>
      <input type="text" id="text" name="first"/>
-     <button onClick={getText()}>gettext</button>
+     <button onClick={getText()}>gettext</button> */}
+     {/* <Change/>
+     <Getname/>
+     <Mapdemo/> */}
     
     </>
   )
